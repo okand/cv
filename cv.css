@@ -233,7 +233,7 @@ code {
   }
 
   ul ul {
-    border-left: .1em dashed #000;
+    border-left: 1px dashed #000;
   }
 
   p.print {
@@ -241,8 +241,13 @@ code {
     display: block;
   }
 
+  span.tags {
+    font-size: .9em;
+    margin-left: .2em;
+  }
+
   span.tag {
-    border: .1em solid #666;
+    border: 1px solid #666;
     color: #666;
   }
 

@@ -60,10 +60,14 @@
     - 11 paid, 46 total
 
 - **[The Trenchfoot Collection] [trenchfoot]**
+    
+    - A selection of photographs of a dog
 
 - **[The Best I Can Do] [deadline]** {Final Cut Pro X, Reason, Logic Pro}
 
-Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile
+    - A music video for a song I wrote in my final year at University
+
+Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
 
 
 [nkdsu]: http://nkd.su/ "nkd.su"
