@@ -32,6 +32,22 @@ a:hover {
   border-bottom: 1px dotted #c52;
 }
 
+span.tags {
+  line-height: 1.3em;
+  margin-left: .5em;
+}
+
+span.tag {
+  font-family: "Share Tech", sans-serif;
+  color: #fff;
+  font-size: .8em;
+  height: 1em;
+  text-shadow: none;
+  background-color: #999;
+  border-radius: .4em;
+  padding: .1em .4em;
+}
+
 ul {
   list-style: none;
   margin-bottom: 1.2em;
@@ -223,6 +239,11 @@ code {
   p.print {
     font-size: .7em;
     display: block;
+  }
+
+  span.tag {
+    border: .1em solid #666;
+    color: #666;
   }
 
   span.print {

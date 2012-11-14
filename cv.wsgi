@@ -19,6 +19,7 @@ import secrets
 def index():
     return cv()
 
+@bottle.route('/<key>/')
 @bottle.route('/<key>')
 def cv(name='Index', key=None):
     cv_md_path = '%s/cv.md' % os.path.dirname(__file__)
@@ -29,23 +30,42 @@ def cv(name='Index', key=None):
     else:
         tel = None
 
+
     # -- BEGIN HORRIBLE REGEX MAGIC
+    # sort out tags
+    tag_matcher = r'(?<=-\s).*({[^}]+})'
+    while re.search(tag_matcher, cv_md):
+        match = re.search(tag_matcher, cv_md)
+        tags = [t.strip() for t in match.group(1).strip('{}').split(',')]
+        tags = ['<span class="tag">%s</span>' % t for t in tags]
+        tagstring = '<span class="tags">%s</span>' % ' '.join(tags)
+
+        # and put them at the start of the line
+        replacement = match.group(0).replace(match.group(1), '') + tagstring
+        cv_md = cv_md.replace(match.group(0), replacement)
+    
+
     # put links in footer
     # cv_md = re.sub(r'\[(.*?)]: ([^\s]+?) "(.*?)"', r'[\1]: \2 "\3"\n\n<p class="print label"><sup>[\1]</sup> \3:</p><p class="print url"><a href="\2">\2</a></p>', cv_md)
 
     # put links in sidebar
     matched = []
 
-    #                  body text      tag       new             tag        footer...
-    matcher = r'(?ms)\[([^\]]+?)]\ \[([^\]]+?)](?!<span)(?=.*^\[\2]:\ ((?:https?://)?(?:www\.)?)([^\s]+?)(?:/)?\s)'
-    while re.search(matcher, cv_md):
-        match = re.search(matcher, cv_md)
+    #                         body text    tag         new          tag        footer...
+    link_matcher = r'(?ms)\[([^\]]+?)]\ \[([^\]]+?)](?!<span)(?=.*^\[\2]:\ ((?:https?://)?(?:www\.)?)([^\s]+?)(?:/)?\s)'
+    link = r'[\1] [\2]<span class="print"><sup>\[\2]</sup></span>'
+    note = r'<span class="print note">\[\2]&nbsp; <code><a href="\3\4">\4</a></code></span>'
+
+    while re.search(link_matcher, cv_md):
+        match = re.search(link_matcher, cv_md)
         slug = match.group(2)
         if slug not in matched:
-            cv_md = cv_md[:match.start(0)] + match.expand(r'[\1] [\2]<span class="print"><sup>\[\2]</sup></span><span class="print note">\[\2]&nbsp; <code><a href="\3\4">\4</a></code></span>') + cv_md[match.end(0):]
+            expanded = match.expand(link+note)
             matched.append(slug)
         else:
-            cv_md = cv_md[:match.start(0)] + match.expand(r'[\1] [\2]<span class="print"><sup>\[\2]</sup></span>') + cv_md[match.end(0):]
+            expanded = match.expand(link)
+
+        cv_md = cv_md[:match.start(0)] + expanded + cv_md[match.end(0):]
     
     # flag inline links as such
     cv_md = re.sub(r'\[(.*?)]\ ?\((.*?)\)', r'<a class="inline" href="\2">\1</a>', cv_md)

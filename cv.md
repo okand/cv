@@ -17,11 +17,11 @@
 
 ## Things I’ve Made
 
-- **[nkd.su] [nkdsu]** ([source] [nkdsu.source])
-
-    {Python, Django, HTML, CSS, Javascript, JQuery}
+- **[nkd.su] [nkdsu]** ([source] [nkdsu.source]) {Python, Django, HTML, CSS, Javascript, JQuery}
 
     - A request-gathering and voting service for [a music show] [nekodesu] on [a commercial radio station] [thecat]
+
+    - Votes recieved via the Twitter streaming API, falling back to polling when necessary
 
     - Staff-only features, including playlist preparation and automatic tweeting of played tracks
 
@@ -29,13 +29,11 @@
 
     - Reactive CSS
 
-- **[pyfoot] [pyfoot]** ([source] [pyfoot.source])
-
-    {Python, Bottle, IRC, HTML, CSS}
+- **[pyfoot] [pyfoot]** ([source] [pyfoot.source]) {Python, IRC, Bottle, HTML, CSS}
 
     - An IRC robot with automatically generated [web-based documentation] [pyfoot]
 
-    - API-polling plugins include…
+    - API-polling plugins include:
 
         - [last.fm] [lastfm.py]
 
@@ -47,17 +45,15 @@
 
         - [mal-api] [mal.py]
 
-- **`ltmtf`**
+    - Idles on [Rizon] [rizon] and [IRCHighWay] [highway]
 
-    {Python}
+- **`ltmtf`** {Python}
 
     - An [award-winning](#gradex) MIDI-based music interpolation engine
 
     - Score-based and heavily threaded
 
-- **[Music for the Blind] [mftb]**
-
-    {Python, Django, Reason, Logic Pro}
+- **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Reason, Logic Pro}
 
     - A website featuring a collection of music made to requests
 
@@ -65,13 +61,9 @@
 
 - **[The Trenchfoot Collection] [trenchfoot]**
 
-    {Various Cameras}
+- **[The Best I Can Do] [deadline]** {Final Cut Pro X, Reason, Logic Pro}
 
-- **[The Best I Can Do] [deadline]**
-
-    {Canon A3300IS, Final Cut Pro X, Reason, Logic Pro}
-
-…and many more, on my [GitHub] [github] profile
+Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile
 
 
 [nkdsu]: http://nkd.su/ "nkd.su"
@@ -91,6 +83,9 @@
 [translate.py]: https://github.com/colons/pyfoot-plugins/blob/master/translate.py "translate.py in pyfoot-plugins"
 [weather.py]: https://github.com/colons/pyfoot-plugins/blob/master/weather.py "weather.py in pyfoot-plugins"
 
+[rizon]: http://woof.bldm.us/help/rizon/ "Rizon"
+[highway]: http://woof.bldm.us/help/highway/ "IRCHighWay"
+
 [github]: https://github.com/colons "colons on Github"
 
 [scoops]: http://scoops.bldm.us/ "scoops"
@@ -98,6 +93,7 @@
 [mftb.home]: http://www.musicfortheblind.co.uk/ "Music for the Blind"
 [mftb]: http://www.musicfortheblind.co.uk/requests "Music for the Blind/requests"
 [mftb.projects]: http://www.musicfortheblind.co.uk/projects "Music for the Blind/projects"
+[contact]: http://www.musicfortheblind.co.uk/contact "Music for the Blind/contact"
 
 [pyrrha]: http://nivi.bandcamp.com/album/alter-locus/ "Alter Locus"
 [trenchfoot]: https://colons.snapjoy.com/albums/205814788331186243 "The Trenchfoot Collection"
