@@ -39,22 +39,47 @@ span.tags {
 
 a.tag {
   font-family: "Share Tech", sans-serif;
-  color: #fff;
   font-size: .8em;
   height: 1em;
   text-shadow: none;
   background-color: #999;
   border-radius: .4em;
   padding: .1em .4em;
+  color: #fff;
 }
 
-a.tag:hover {
-  border: none;
-  background-color: #222;
-}
+/* tag and list selection stuff */
+@media screen {
+  a.tag.selected {
+    background-color: #c52;
+  }
 
-a.tag.selected {
-  background-color: #c52;
+  a.tag:hover, a.tag.hover {
+    border: none;
+    background-color: #fff;
+    box-shadow: #444 0 .1em .2em;
+    color: #666;
+  }
+
+  a.tag.selected:hover, a.tag.selected.hover {
+    color: #c52;
+    box-shadow: #421 0 .1em .2em;
+  }
+
+  li.selected ul {
+    border-left: .2em solid #c52;
+    margin-left: -.7em;
+  }
+
+  li.hover {
+    border-right: .2em solid #c52;
+    margin-right: -.4em;
+  }
+
+  li.selected ul ul {
+    border: none;
+    margin-left: -.6em;
+  }
 }
 
 ul {
@@ -65,7 +90,7 @@ ul {
 }
 
 ul ul {
-  border-left: 1px dotted #aaa;
+  border-left: .1em dotted #bbb;
   padding-left: 1.5em;
 }
 

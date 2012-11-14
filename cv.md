@@ -1,10 +1,10 @@
 ## Things I Can Do…
 
-- …with confidence and proficiency
+- **…with confidence and proficiency**
 
     - Write [Python](#Python) applications, particularly in [Django](#Django) or [Bottle](#Bottle)
 
-    - Design and build compliant and semantic [HTML](#HTML)/[CSS](#CSS) websites
+    - Design and build [compliant](http://validator.w3.org/check?uri=cv.musicfortheblind.co.uk) and semantic [HTML](#HTML)/[CSS](#CSS) websites
 
     - Dance around in vim
 
@@ -12,9 +12,11 @@
 
     - Work to a brief, well-defined or otherwise, in a production team
 
-- …with a fair amount of Googling
+- **…with a fair amount of Googling and/or apologising**
 
     - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
+
+    - Take [photos](#Photography) of things
 
     - Produce [video](#Video)
 
@@ -63,7 +65,7 @@
 
     - Idles on [Rizon] [rizon] and [IRCHighWay] [highway]
 
-- **`ltmtf`** {Python}
+- <a id="ltmtf"></a>**`ltmtf`** {Python}
 
     - An [award-winning](#gradex) MIDI-based music interpolation engine
 
@@ -75,7 +77,7 @@
 
     - 11 paid, 46 total
 
-- **[The Trenchfoot Collection] [trenchfoot]**
+- **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     
     - A selection of photographs of a dog
 
