@@ -1,7 +1,3 @@
-## Things I Can Do
-
-[placeholder]
-
 
 ## Things I’ve Got
 
@@ -53,7 +49,7 @@
 
     - Score-based and heavily threaded
 
-- **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Reason, Logic Pro}
+- **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Music}
 
     - A website featuring a collection of music made to requests
 
@@ -63,11 +59,33 @@
     
     - A selection of photographs of a dog
 
-- **[The Best I Can Do] [deadline]** {Final Cut Pro X, Reason, Logic Pro}
+- **[The Best I Can Do] [deadline]** {Music, Video}
 
     - A music video for a song I wrote in my final year at University
 
 Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
+
+## Things I Can Do…
+
+- …with confidence and proficiency
+
+    - Write [Python](#Python) applications, particularly in [Django](#Django) or [Bottle](#Bottle)
+
+    - Design and build compliant and semantic [HTML](#HTML)/[CSS](#CSS) websites
+
+    - Dance around in vim
+
+    - Produce [music](#Music)
+
+    - Work to a brief, well-defined or otherwise, in a production team
+
+- …with a fair amount of Googling
+
+    - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
+
+    - Produce [video](#Video)
+
+
 
 
 [nkdsu]: http://nkd.su/ "nkd.su"
