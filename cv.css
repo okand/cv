@@ -1,0 +1,244 @@
+* {
+  border: none;
+  margin: 0;
+  padding: 0:
+}
+
+body {
+  font-family: 'Buenard', serif;
+  font-size: 1.4em;
+  color: #222;
+  background-color: #fff;
+  background-image: url('http://d.bldm.us/noise.png');
+  text-shadow: #ddd 0 .05em .1em;
+  line-height: 1.2em;
+  padding-top: 6em;
+}
+
+div#things {
+  margin: 0 auto;
+  max-width: 42em;
+  padding: 1em 2em;
+}
+
+a {
+  text-shadow: none;
+  color: #c52;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #222;
+  border-bottom: 1px dotted #c52;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 1.2em;
+  margin-left: -.6em;
+  padding-left: 2em;
+}
+
+ul ul {
+  border-left: 1px dotted #aaa;
+  padding-left: 1.5em;
+}
+
+ul ul ul {
+  border: none;
+  padding-left: 1.7em;
+}
+
+h5, h4, h3, h2 {
+  line-height: 1.2em;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+h1 {
+  line-height: 1em;
+  padding: .4em 0;
+  text-align: center;
+}
+
+div#contact {
+  padding-top: .4em;
+  padding-bottom: .8em;
+}
+
+div#contact p {
+  text-align: center;
+}
+
+li {
+  margin: .5em 0;
+}
+
+li:before {
+  position: absolute;
+  margin-left: -.8em;
+  font-weight: 500;
+  color: #aaa;
+}
+
+li li:before {
+  content: "·";
+  color: #999;
+  margin-left: -.5em;
+}
+
+li:before {
+  content: "»";
+}
+
+div#logo {
+  padding-top: 3em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+div#logo img {
+  width: 5em;
+  height: 5em;
+}
+
+div#logo a:hover {
+  border: none;
+}
+
+hr {
+  text-align: center;
+  border: none;
+  margin-top: 3.3em;
+  height: 1em;
+}
+
+hr:after {
+  text-shadow: none;
+  display: block;
+  font-size: 20em;
+  content: "|";
+  font-family: 'Amatic SC', cursive;
+  color: #333;
+  text-shadow: #aaa 2px 0 6px;
+  margin-left: .05em;
+  /*
+  letter-spacing: 2em;
+  margin-left: 2em;
+  font-size: .7em;
+  */
+  transform: rotatoe(90deg);
+  -webkit-transform: rotate(90deg); 
+  -ms-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+hr.pre:after {
+  content: "{";
+}
+
+hr.post:after {
+  content: "}";
+}
+
+p.url {
+  margin-bottom: 1em;
+}
+
+span sup {
+  font-size: .7em;
+  line-height: 0;
+  position: relative;
+  top: .2em;
+}
+
+.note {
+  display: block;
+  width: 50%;
+  position: relative;
+  left: 52%;
+  margin-left: -50%;
+  font-size: .7em;
+  line-height: 1em;
+  margin-bottom: .5em;
+  float: right;
+  clear: right;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: .8em;
+}
+
+.print {
+  font-weight: normal;
+  color: #666;
+  display: none;
+}
+
+@media (max-width:650px) {
+  body {
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  div#things {
+    margin: 0 auto;
+    max-width: 42em;
+    padding: 1em;
+  }
+
+  ul {
+    padding-left: 1.5em;
+  }
+
+  ul ul {
+    padding-left: 1.2em;
+  }
+
+  ul ul ul {
+    padding-left: 1.4em;
+  }
+}
+
+@media print {
+  body {
+    color: #000;
+    font-size: .9em;
+    line-height: 1.1em;
+    text-shadow: none;
+    background-image: none;
+    padding: 1em;
+  }
+
+  a.inline {
+    color: #000;
+  }
+
+  ul ul {
+    border-left: .1em dashed #000;
+  }
+
+  p.print {
+    font-size: .7em;
+    display: block;
+  }
+
+  span.print {
+    display: inline;
+  }
+
+  div#logo {
+    margin-bottom: 0;
+  }
+
+  li:before {
+    color: #000;
+  }
+
+  div#things {
+    padding: 0em 33% 0 .5em;
+    max-width: none;
+  }
+}
