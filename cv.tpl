@@ -9,6 +9,8 @@
         <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Share+Tech' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="http://media.musicfortheblind.co.uk/static/favicon.ico" type="image/vnd.microsoft.icon">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://d.bldm.us/tags.js"></script>
     </head>
 
     <body>

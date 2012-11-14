@@ -37,7 +37,7 @@ span.tags {
   margin-left: .5em;
 }
 
-span.tag {
+a.tag {
   font-family: "Share Tech", sans-serif;
   color: #fff;
   font-size: .8em;
@@ -46,6 +46,15 @@ span.tag {
   background-color: #999;
   border-radius: .4em;
   padding: .1em .4em;
+}
+
+a.tag:hover {
+  border: none;
+  background-color: #222;
+}
+
+a.tag.selected {
+  background-color: #c52;
 }
 
 ul {
@@ -250,7 +259,7 @@ code {
     margin-left: .2em;
   }
 
-  span.tag {
+  a.tag {
     border: 1px solid #666;
     color: #666;
   }

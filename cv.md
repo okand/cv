@@ -1,3 +1,23 @@
+## Things I Can Do…
+
+- …with confidence and proficiency
+
+    - Write [Python](#Python) applications, particularly in [Django](#Django) or [Bottle](#Bottle)
+
+    - Design and build compliant and semantic [HTML](#HTML)/[CSS](#CSS) websites
+
+    - Dance around in vim
+
+    - Produce [music](#Music)
+
+    - Work to a brief, well-defined or otherwise, in a production team
+
+- …with a fair amount of Googling
+
+    - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
+
+    - Produce [video](#Video)
+
 
 ## Things I’ve Got
 
@@ -64,27 +84,6 @@
     - A music video for a song I wrote in my final year at University
 
 Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
-
-## Things I Can Do…
-
-- …with confidence and proficiency
-
-    - Write [Python](#Python) applications, particularly in [Django](#Django) or [Bottle](#Bottle)
-
-    - Design and build compliant and semantic [HTML](#HTML)/[CSS](#CSS) websites
-
-    - Dance around in vim
-
-    - Produce [music](#Music)
-
-    - Work to a brief, well-defined or otherwise, in a production team
-
-- …with a fair amount of Googling
-
-    - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
-
-    - Produce [video](#Video)
-
 
 
 

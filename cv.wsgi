@@ -19,6 +19,17 @@ import secrets
 def index():
     return cv()
 
+def appearances(the_string, the_list):
+    """ return '%s%i' % (the_string, i) where i is the number of times
+    the_string appears in the_list, unless it appears exactly once, in which
+    case just return the_string"""
+
+    appearances = len([i for i in the_list if i == the_string])
+    if appearances == 1:
+        return the_string
+    else:
+        return '%s%i' % (the_string, appearances)
+
 @bottle.route('/<key>/')
 @bottle.route('/<key>')
 def cv(name='Index', key=None):
@@ -34,10 +45,13 @@ def cv(name='Index', key=None):
     # -- BEGIN HORRIBLE REGEX MAGIC
     # sort out tags
     tag_matcher = r'(?<=-\s).*({[^}]+})'
+    so_far = []
+
     while re.search(tag_matcher, cv_md):
         match = re.search(tag_matcher, cv_md)
         tags = [t.strip() for t in match.group(1).strip('{}').split(',')]
-        tags = ['<span class="tag">%s</span>' % t for t in tags]
+        so_far.extend(tags)
+        tags = ['<a class="tag inline" id="%s" href="#%s">%s</a>' % (appearances(t, so_far), t, t) for t in tags]
         tagstring = '<span class="tags">%s</span>' % ' '.join(tags)
 
         # and put them at the start of the line
