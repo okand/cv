@@ -72,8 +72,9 @@ a.tag {
   }
 
   li.hover {
-    border-right: .2em solid #c52;
+    border-right: .2em solid #999;
     margin-right: -.4em;
+    padding-right: .2em;
   }
 
   li.selected ul ul {
@@ -287,6 +288,7 @@ code {
   a.tag {
     border: 1px solid #666;
     color: #666;
+    background-color: #fff;
   }
 
   span.print {

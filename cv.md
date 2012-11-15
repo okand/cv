@@ -2,7 +2,7 @@
 
 - **…with confidence and proficiency**
 
-    - Write [Python](#Python) applications, particularly in [Django](#Django) or [Bottle](#Bottle)
+    - Write [Python](#Python) applications, particularly with [Django](#Django) or [Bottle](#Bottle)
 
     - Design and build [compliant](http://validator.w3.org/check?uri=cv.musicfortheblind.co.uk) and semantic [HTML](#HTML)/[CSS](#CSS) websites
 
