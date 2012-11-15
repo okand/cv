@@ -81,6 +81,10 @@
 
     - Reactive CSS
 
+- **[Alter Locus] [pyrrha]** {Music}
+
+    - A space travel concept album
+
 - **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     
     - A selection of photographs of a dog
@@ -89,7 +93,7 @@
 
     - A music video for a song I wrote in my final year at University
 
-Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
+- <a id="more"></a>Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
 
 
 [nkdsu]: http://nkd.su/ "nkd.su"

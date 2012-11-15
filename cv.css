@@ -65,10 +65,16 @@ a.tag {
     color: #c52;
   }
   
-  body.selection .unselected, body.selection h2 {
+  body.selection .unselected, body.selection h2, body.selection h1, body.selection div#contact {
     text-shadow: none;
     opacity: .2;
   }
+  
+  /* ¯\(°_o)/¯ i'd rather this stayed visible
+  body.selection div#logo {
+    opacity: .4;
+  }
+  */
 
   li.selected ul {
     border-left: .2em solid #c52;
@@ -241,7 +247,7 @@ code {
 @media (max-width:650px) {
   body {
     font-size: 1em;
-    padding: 1em;
+    padding: 2em 0 1em;
   }
 
   div#things {
