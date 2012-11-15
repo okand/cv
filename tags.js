@@ -9,7 +9,7 @@ $(document).ready(function() {
 
   function highlight(hash, the_class) {
     // clear selection...
-    if (hash == 'selection') {
+    if (the_class == 'selected') {
       matcher = get_matcher(false);
       
       $(matcher).each(function(i) {
