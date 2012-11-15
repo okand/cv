@@ -53,7 +53,7 @@ a.tag {
   a.tag.selected {
     background-color: #c52;
   }
-
+  
   a.tag:hover, a.tag.hover {
     border: none;
     background-color: #fff;
@@ -70,11 +70,13 @@ a.tag {
     margin-left: -.7em;
   }
 
+  /* unnecessary and confusing
   li.hover {
     border-right: .2em solid #999;
     margin-right: -.4em;
     padding-right: .2em;
   }
+  */
 
   li.selected ul ul {
     border: none;
