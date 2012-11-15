@@ -1,7 +1,7 @@
 * {
   border: none;
   margin: 0;
-  padding: 0:
+  padding: 0;
 }
 
 body {
@@ -171,42 +171,6 @@ div#logo img {
 
 div#logo a:hover {
   border: none;
-}
-
-hr {
-  text-align: center;
-  border: none;
-  margin-top: 3.3em;
-  height: 1em;
-}
-
-hr:after {
-  text-shadow: none;
-  display: block;
-  font-size: 20em;
-  content: "|";
-  font-family: 'Amatic SC', cursive;
-  color: #333;
-  text-shadow: #aaa 2px 0 6px;
-  margin-left: .05em;
-  /*
-  letter-spacing: 2em;
-  margin-left: 2em;
-  font-size: .7em;
-  */
-  transform: rotatoe(90deg);
-  -webkit-transform: rotate(90deg); 
-  -ms-transform: rotate(90deg); 
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-}
-
-hr.pre:after {
-  content: "{";
-}
-
-hr.post:after {
-  content: "}";
 }
 
 p.url {
