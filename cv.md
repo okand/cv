@@ -8,6 +8,8 @@
 
     - Dance around in vim
 
+    - Make good use of a [Git](#git) or [Mercurial](#hg) repository
+
     - Produce [music](#Music)
 
     - Work to a brief, well-defined or otherwise, in a production team
@@ -35,7 +37,7 @@
 
 ## Things I’ve Made
 
-- **[nkd.su] [nkdsu]** ([source] [nkdsu.source]) {Python, Django, HTML, CSS, Javascript, JQuery}
+- **[nkd.su] [nkdsu]** ([source] [nkdsu.source]) {Python, Django, HTML, CSS, Javascript, JQuery, git}
 
     - A request-gathering and voting service for [a music show] [nekodesu] on [a commercial radio station] [thecat]
 
@@ -47,7 +49,7 @@
 
     - Reactive CSS
 
-- **[pyfoot] [pyfoot]** ([source] [pyfoot.source]) {Python, IRC, Bottle, HTML, CSS}
+- **[pyfoot] [pyfoot]** ([source] [pyfoot.source]) {Python, IRC, Bottle, HTML, CSS, git}
 
     - An IRC robot with automatically generated [web-based documentation] [pyfoot]
 
@@ -65,13 +67,13 @@
 
     - Idles on [Rizon] [rizon] and [IRCHighWay] [highway]
 
-- <a id="ltmtf"></a>**`ltmtf`** {Python}
+- <a id="ltmtf"></a>**`ltmtf`** {Python, hg}
 
     - An [award-winning](#gradex) MIDI-based music interpolation engine
 
     - Score-based and heavily threaded
 
-- **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Music}
+- **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Music, hg}
 
     - A website featuring a collection of music made to requests
 
@@ -88,7 +90,6 @@
 Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
 
 
-
 [nkdsu]: http://nkd.su/ "nkd.su"
 [nkdsu.source]: https://github.com/colons/nkdsu "nkdsu on GitHub"
 [thecat]: http://thisisthecat.com/ "The Cat"
@@ -96,7 +97,7 @@ Much more — including a video game headline generator and this very CV — on 
 
 [gradex]: http://www.staffs.ac.uk/events/gradex/2012/prizewinners/index.jsp#music "GradEx 2012 Music Prizewinners"
 
-[cv]: http://cv.musicfortheblind.co.uk/ "Iain Dawson's CV"
+[cv]: http://cv.musicfortheblind.co.uk/ "Iain Dawson’s CV"
 
 [pyfoot]: http://woof.bldm.us/ "pyfoot documentation"
 [pyfoot.source]: https://github.com/colons/pyfoot "pyfoot on GitHub"
