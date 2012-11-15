@@ -18,7 +18,7 @@ $(document).ready(function() {
       
       $(matcher).each(function(i) {
         $(this).removeClass(the_class);
-        host = $(this).parentsUntil('div', 'li').slice(0, 1)
+        host = $(this).parentsUntil('div', 'li').slice(-2, -1)
         host.removeClass(the_class);
         host.addClass('un'+the_class);
       });
@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     // explicitly set or unset
     $(matcher).each(function(i) {
-      host = $(this).parentsUntil('div', 'li').slice(0, 1)
+      host = $(this).parentsUntil('div', 'li').slice(-2, -1)
       if (hash) {
         $(this).addClass(the_class);
         host.addClass(the_class);

@@ -20,6 +20,8 @@
 
     - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
 
+    - Administer a Linux machine running a distro not listed [above](#confident)
+
     - Take [photos](#Photography) of things
 
     - Produce [video](#Video)
@@ -39,7 +41,7 @@
 
 ## Things I’ve Made
 
-- **[nkd.su] [nkdsu]** ([source] [nkdsu.source]) {Python, Django, HTML, CSS, Javascript, JQuery, git}
+- **[nkd.su] [nkdsu]** ([source] [nkdsu.src]) {Python, Django, HTML, CSS, Javascript, JQuery, git}
 
     - A request-gathering and voting service for [a music show] [nekodesu] on [a commercial radio station] [thecat]
 
@@ -51,7 +53,7 @@
 
     - Reactive CSS
 
-- **[pyfoot] [pyfoot]** ([source] [pyfoot.source]) {Python, IRC, Bottle, HTML, CSS, git}
+- **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML, CSS, git}
 
     - An IRC robot with automatically generated [web-based documentation] [pyfoot]
 
@@ -87,17 +89,13 @@
 
 - **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     
-    - A selection of photographs of a dog
-
 - **[The Best I Can Do] [deadline]** {Music, Video}
-
-    - A music video for a song I wrote in my final year at University
 
 - <a id="more"></a>Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
 
 
 [nkdsu]: http://nkd.su/ "nkd.su"
-[nkdsu.source]: https://github.com/colons/nkdsu "nkdsu on GitHub"
+[nkdsu.src]: https://github.com/colons/nkdsu "nkdsu on GitHub"
 [thecat]: http://thisisthecat.com/ "The Cat"
 [nekodesu]: http://thisisthecat.com/index.php/neko-desu "Neko Desu"
 
@@ -106,7 +104,7 @@
 [cv]: http://cv.musicfortheblind.co.uk/ "Iain Dawson’s CV"
 
 [pyfoot]: http://woof.bldm.us/ "pyfoot documentation"
-[pyfoot.source]: https://github.com/colons/pyfoot "pyfoot on GitHub"
+[pyfoot.src]: https://github.com/colons/pyfoot "pyfoot on GitHub"
 [mal.py]: https://github.com/colons/pyfoot-plugins/blob/master/mal.py "mal.py in pyfoot-plugins"
 [lastfm.py]: https://github.com/colons/pyfoot-plugins/blob/master/lastfm.py "lastfm.py in pyfoot-plugins"
 [ddg.py]: https://github.com/colons/pyfoot-plugins/blob/master/ddg.py "ddg.py in pyfoot-plugins"
