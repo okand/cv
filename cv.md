@@ -57,17 +57,7 @@
 
     - An IRC robot with automatically generated [web-based documentation] [pyfoot]
 
-    - API-polling plugins include:
-
-        - [last.fm] [lastfm.py]
-
-        - [DuckDuckGo] [ddg.py]
-
-        - [Bing Translate] [translate.py]
-
-        - [Weather Underground] [weather.py]
-
-        - [mal-api] [mal.py]
+    - API-polling plugins include  [last.fm] [lastfm.py], [Bing Translate] [translate.py], [Weather Underground] [weather.py] and [mal-api] [mal.py]
 
     - Idles on [Rizon] [rizon] and [IRCHighWay] [highway]
 
