@@ -1,17 +1,28 @@
 $(document).ready(function() {
-  function highlight(hash, the_class) {
-    // clear selection
-    $('a.tag').each(function(i) {
-      $(this).removeClass(the_class);
-      $(this).closest('li').removeClass(the_class);
-    });
-    
+  function get_matcher(hash) {
     if (hash) {
-      matcher = 'a.tag:contains("' + hash + '")';
+      return matcher = '*[id^="' + hash + '"]';
+    } else {
+      return matcher = 'a, li';
+    }
+  }
+
+  function highlight(hash, the_class) {
+    // clear selection...
+    matcher = get_matcher(false);
+
+    $(matcher).each(function(i) {
+      $(this).removeClass(the_class);
+      $(this).parents('div', 'li').slice(0, 1).removeClass(the_class);
+    });
+
+    // ...and remake it    
+    if (hash) {
+      matcher = get_matcher(hash);
 
       $(matcher).each(function(i) {
         $(this).addClass(the_class);
-        $(this).closest('li').addClass(the_class);
+        $(this).parentsUntil('div', 'li').slice(0, 1).addClass(the_class);
       });
     }
   }

@@ -75,9 +75,7 @@
 
 - **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Music, hg}
 
-    - A website featuring a collection of music made to requests
-
-    - 11 paid, 46 total
+    - A website featuring a collection of 46 songs made to requests, 11 of which were paid
 
 - **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     
