@@ -1,6 +1,6 @@
 ## Things I Can Do…
 
-- **…with confidence and proficiency**
+- <a id="confident"></a>**…with confidence and proficiency**
 
     - Write [Python](#Python) applications, particularly with [Django](#Django) or [Bottle](#Bottle)
 
@@ -14,7 +14,9 @@
 
     - Work to a brief, well-defined or otherwise, in a production team
 
-- **…with a fair amount of Googling and/or apologising**
+    - Administer a Debian, Arch Linux or Ubuntu machine
+
+- <a id="working"></a>**…with a fair amount of Googling and/or apologising**
 
     - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
 
@@ -25,7 +27,7 @@
 
 ## Things I’ve Got
 
-- **A Degree**
+- <a id="degree"></a>**A Degree**
 
     - BSc, first class honours
 
@@ -76,6 +78,8 @@
 - **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Music, hg}
 
     - A website featuring a collection of 46 songs made to requests, 11 of which were paid
+
+    - Reactive CSS
 
 - **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     

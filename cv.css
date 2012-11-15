@@ -64,6 +64,11 @@ a.tag {
   a.tag.selected:hover, a.tag.selected.hover {
     color: #c52;
   }
+  
+  body.selection .unselected, body.selection h2 {
+    text-shadow: none;
+    opacity: .2;
+  }
 
   li.selected ul {
     border-left: .2em solid #c52;

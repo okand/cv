@@ -1,9 +1,9 @@
 $(document).ready(function() {
   function get_matcher(hash) {
     if (hash) {
-      return matcher = '*[id^="' + hash + '"]';
+      return matcher = 'a[id^="' + hash + '"], li[id^="' + hash + '"]';
     } else {
-      return matcher = 'a, li';
+      return matcher = 'a[id], li[id]';
     }
   }
 
@@ -11,10 +11,16 @@ $(document).ready(function() {
     // clear selection...
     if (the_class == 'selected') {
       matcher = get_matcher(false);
+      if (hash) {
+        // selection is important now
+        $('body').addClass('selection');
+      }
       
       $(matcher).each(function(i) {
         $(this).removeClass(the_class);
-        $(this).parents('div', 'li').slice(0, 1).removeClass(the_class);
+        host = $(this).parentsUntil('div', 'li').slice(0, 1)
+        host.removeClass(the_class);
+        host.addClass('un'+the_class);
       });
     }
 
@@ -22,12 +28,15 @@ $(document).ready(function() {
 
     // explicitly set or unset
     $(matcher).each(function(i) {
+      host = $(this).parentsUntil('div', 'li').slice(0, 1)
       if (hash) {
         $(this).addClass(the_class);
-        $(this).parentsUntil('div', 'li').slice(0, 1).addClass(the_class);
+        host.addClass(the_class);
+        host.removeClass('un'+the_class);
       } else {
         $(this).removeClass(the_class);
-        $(this).parentsUntil('div', 'li').slice(0, 1).removeClass(the_class);
+        host.removeClass(the_class);
+        host.addClass('un'+the_class);
       }
     });
   }
@@ -36,7 +45,15 @@ $(document).ready(function() {
 
   highlight(hash, 'selected');
 
+  $('body').click(function(event) {
+    // deselect everything
+    highlight(false, 'selected');
+    // selection is not important
+    $(this).removeClass('selection');
+  });
+
   $('a[href^="#"]').click(function(event) {
+    event.stopPropagation();
     hash = $(this).attr('href').slice(1);
     highlight(hash, 'selected');
   });
