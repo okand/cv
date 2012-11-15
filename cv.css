@@ -57,13 +57,12 @@ a.tag {
   a.tag:hover, a.tag.hover {
     border: none;
     background-color: #fff;
-    box-shadow: #444 0 .1em .2em;
+    box-shadow: #666 0 .1em .2em;
     color: #666;
   }
 
   a.tag.selected:hover, a.tag.selected.hover {
     color: #c52;
-    box-shadow: #421 0 .1em .2em;
   }
 
   li.selected ul {
