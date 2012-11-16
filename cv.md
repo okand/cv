@@ -6,7 +6,7 @@
 
     - Design and build [compliant](http://validator.w3.org/check?uri=cv.musicfortheblind.co.uk) and semantic [HTML](#HTML)/[CSS](#CSS) websites
 
-    - Dance around in vim
+    - Dance around in Vim 
 
     - Make good use of a [Git](#git) or [Mercurial](#hg) repository
 
