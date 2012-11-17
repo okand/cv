@@ -12,9 +12,9 @@
 
     - Produce [music](#Music)
 
-    - Work to a brief, well-defined or otherwise, in a production team
-
     - Administer a Debian, Arch Linux or Ubuntu machine
+
+    - Work to a brief, well-defined or otherwise, alone or in a production team
 
 - <a id="working"></a>**…with a fair amount of Googling and/or apologising**
 
@@ -47,7 +47,7 @@
 
     - Votes recieved via the Twitter streaming API, falling back to polling when necessary
 
-    - Staff-only features, including playlist preparation and automatic tweeting of played tracks
+    - Staff-only features, including playlist preparation and manual track blocking
 
     - Persistent, per-session track selection allows mass voting (and mass staff actions)
 
@@ -75,7 +75,7 @@
 
 - **[Alter Locus] [pyrrha]** {Music}
 
-    - A space travel concept album
+    - A concept album about Earth’s first interstellar planetary colonisation mission
 
 - **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     
