@@ -51,7 +51,7 @@
 
     - Persistent, per-session track selection allows mass voting (and mass staff actions)
 
-    - Reactive CSS
+    - Respnsive CSS
 
 - **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML, CSS, git}
 
@@ -71,7 +71,7 @@
 
     - A website featuring a collection of 46 songs made to requests, 11 of which were paid
 
-    - Reactive CSS
+    - Responsive CSS
 
 - **[Alter Locus] [pyrrha]** {Music}
 
