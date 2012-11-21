@@ -81,7 +81,7 @@
     
 - **[The Best I Can Do] [deadline]** {Music, Video}
 
-- <a id="more"></a>Much more — including a video game headline generator and this very CV — on my [GitHub] [github] profile.
+- <a id="more"></a>Much more — including a [video game headline generator](https://github.com/colons/scoops) and [this very CV](https://github.com/colons/cv) — on my [GitHub] [github] profile.
 
 
 [nkdsu]: http://nkd.su/ "nkd.su"
