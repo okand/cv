@@ -33,6 +33,7 @@ a:hover {
 }
 
 span.tags {
+  display: inline-block;
   line-height: 1.3em;
   margin-left: .5em;
 }

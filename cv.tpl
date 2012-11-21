@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Iain Dawson: a CV</title>
-        <link rel="stylesheet" type="text/css" href="http://d.bldm.us/cv.css?v=active">
+        <link rel="stylesheet" type="text/css" href="http://d.bldm.us/cv.css?v=wrap">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <link href='http://fonts.googleapis.com/css?family=Buenard:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet' type='text/css'>
