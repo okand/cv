@@ -53,6 +53,8 @@
 
     - Responsive CSS
 
+    - I also made the [jingle] [nekodesu-jingle] for the show.
+
 - **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML, CSS, git}
 
     - An IRC robot with automatically generated [web-based documentation] [pyfoot]
@@ -88,6 +90,7 @@
 [nkdsu.src]: https://github.com/colons/nkdsu "nkdsu on GitHub"
 [thecat]: http://thisisthecat.com/ "The Cat"
 [nekodesu]: http://thisisthecat.com/index.php/neko-desu "Neko Desu"
+[nekodesu-jingle]: https://soundcloud.com/nivi/neko-desu
 
 [gradex]: http://www.staffs.ac.uk/events/gradex/2012/prizewinners/index.jsp#music "GradEx 2012 Music Prizewinners"
 
