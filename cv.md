@@ -41,7 +41,7 @@
 
 ## Things I’ve Made
 
-- **[nkd.su] [nkdsu]** ([source] [nkdsu.src]) {Python, Django, HTML, CSS, Javascript, JQuery, git}
+- **[nkd.su] [nkdsu]** ([source] [nkdsu.src]) {Python, Django, Celery, South, HTML, CSS, Javascript, JQuery, git}
 
     - A request-gathering and voting service for [a music show] [nekodesu] on [a commercial radio station] [thecat]
 
@@ -67,7 +67,7 @@
 
     - Score-based and heavily threaded
 
-- **[Music for the Blind] [mftb]** {Python, Django, HTML, CSS, Music, hg}
+- **[Music for the Blind] [mftb]** {Python, Django, South, HTML, CSS, Music, hg}
 
     - A website featuring a collection of 46 songs made to requests, 11 of which were paid
 
