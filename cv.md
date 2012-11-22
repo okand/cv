@@ -51,7 +51,7 @@
 
     - Persistent, per-session track selection allows mass voting (and mass staff actions)
 
-    - Respnsive CSS
+    - Responsive CSS
 
 - **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML, CSS, git}
 
