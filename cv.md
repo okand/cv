@@ -53,7 +53,7 @@
 
     - Responsive CSS
 
-    - I also made the [jingle] [nekodesu-jingle] for the show.
+    - I also made the [jingle] [nekodesu-jingle] for the show
 
 - **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML, CSS, git}
 
