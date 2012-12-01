@@ -47,7 +47,11 @@
 
     - Votes recieved via the Twitter streaming API, falling back to polling when necessary
 
-    - Staff-only features, including playlist preparation and manual track blocking
+    - Staff-only features:
+        
+        - Library update from iTunes XML
+
+        - Playlist preparation
 
     - Persistent, per-session track selection allows mass voting (and mass staff actions)
 
