@@ -83,10 +83,6 @@
 
     - A concept album about Earth’s first interstellar planetary colonisation mission
 
-- **Let’s Watch A Keion** {Objective-C}
-
-    - A Mac app I’m teaching myself Objective-C to make
-
 - **[The Trenchfoot Collection] [trenchfoot]** {Photography}
     
 - **[The Best I Can Do] [deadline]** {Music, Video}
