@@ -14,8 +14,6 @@
 
     - Administer a Debian, Arch Linux or Ubuntu machine
 
-    - Work to a brief, well-defined or otherwise, alone or in a production team
-
 - <a id="working"></a>**…with a fair amount of Googling and/or apologising**
 
     - Enhance websites with [Javascript](#Javascript) and, ideally, [JQuery](#JQuery)
