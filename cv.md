@@ -4,7 +4,7 @@
 
     - Write [Python](#Python) applications, particularly with [Django](#Django) or [Bottle](#Bottle)
 
-    - Design and build [compliant](http://validator.w3.org/check?uri=cv.musicfortheblind.co.uk) and semantic [HTML](#HTML)/[CSS](#CSS) websites
+    - Design and build [compliant](http://validator.w3.org/check?uri=cv.musicfortheblind.co.uk) and semantic [HTML/CSS](#HTML/CSS) websites
 
     - Dance around in Vim 
 
@@ -39,7 +39,7 @@
 
 ## Things I’ve Made
 
-- **[nkd.su] [nkdsu]** ([source] [nkdsu.src]) {Python, Django, Celery, South, HTML, CSS, Javascript, JQuery, git}
+- **[nkd.su] [nkdsu]** ([source] [nkdsu.src]) {Python, Django, HTML/CSS, Javascript, JQuery, git}
 
     - A request-gathering and voting service for [a music show] [nekodesu] on [a commercial radio station] [thecat]
 
@@ -57,7 +57,7 @@
 
     - I also made the [jingle] [nekodesu-jingle] for the show
 
-- **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML, CSS, git}
+- **[pyfoot] [pyfoot]** ([source] [pyfoot.src]) {Python, IRC, Bottle, HTML/CSS, git}
 
     - An IRC robot with automatically generated [web-based documentation] [pyfoot]
 
@@ -71,7 +71,7 @@
 
     - Score-based and heavily threaded
 
-- **[Music for the Blind] [mftb]** {Python, Django, South, HTML, CSS, Music, hg}
+- **[Music for the Blind] [mftb]** {Python, Django, HTML/CSS, Music, hg}
 
     - A website featuring a collection of 46 songs made to requests, 11 of which were paid
 

@@ -7,7 +7,20 @@ $(document).ready(function() {
     }
   }
 
+  function clear() {
+    // deselect everything
+    highlight(false, 'selected');
+
+    $('body').removeClass('selection');
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+  }
+
   function highlight(hash, the_class) {
+    // unbind all tags
+    if (!hash) {
+      $('a.tag').unbind('click');
+    }
+
     // clear selection...
     if (the_class == 'selected') {
       matcher = get_matcher(false);
@@ -39,6 +52,23 @@ $(document).ready(function() {
         host.addClass('un'+the_class);
       }
     });
+    
+    // rebind tags
+    $('a[href^="#"]').click(function(event) {
+      if (!$(this).hasClass('selected')) {
+        event.stopPropagation();
+        hash = $(this).attr('href').slice(1);
+        highlight(hash, 'selected');
+      }
+    });
+
+    // bind selected tags to deselect
+    if (hash) {
+      $('body.selection a.tag.selected').unbind('click').bind('click', function(event) {
+        event.preventDefault();
+        clear();
+      });
+    }
   }
 
   hash = window.location.hash.slice(1);
@@ -46,26 +76,17 @@ $(document).ready(function() {
   highlight(hash, 'selected');
 
   $('body').click(function(event) {
-    // deselect everything
-    highlight(false, 'selected');
-    // selection is not important
-    $(this).removeClass('selection');
-  });
-
-  $('a[href^="#"]').click(function(event) {
-    event.stopPropagation();
-    hash = $(this).attr('href').slice(1);
-    highlight(hash, 'selected');
+    clear();
   });
 
   $('a[href^="#"]').hover(
-      function() {
-        hash = $(this).attr('href').slice(1);
-        highlight(hash, 'hover');
-      },
-      function() {
-        hash = $(this).attr('href').slice(1);
-        highlight(false, 'hover');
-      }
+    function() {
+      hash = $(this).attr('href').slice(1);
+      highlight(hash, 'hover');
+    },
+    function() {
+      hash = $(this).attr('href').slice(1);
+      highlight(false, 'hover');
+    }
   );
 });
