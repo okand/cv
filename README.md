@@ -1,6 +1,6 @@
 cv
 ==
 
-The Bottle application used to a CV that is not mine from a Markdown file.
+The Bottle application used to build a CV that is not mine from a Markdown file.
 
 Ye, mang.
